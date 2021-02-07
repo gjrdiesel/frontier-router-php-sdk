@@ -1,0 +1,24 @@
+{
+    "name": "gjrdiesel/frontier-router-php-sdk",
+    "description": "PHP SDK for the Frontier Router",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Justin",
+            "email": "knoxxbox@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Frontier\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Frontier\\RouterServiceProvider"
+            ]
+        }
+    }
+}
