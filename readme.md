@@ -20,7 +20,7 @@ var_dump($ipAddress); // 47.123.123.222
 # Installation
 
 ```
-composer require gjrdiesel/frontier-router
+composer require gjrdiesel/frontier-router-php-sdk
 ```
 
 Then in php:
